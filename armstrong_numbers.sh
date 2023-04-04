@@ -16,4 +16,8 @@ INTRO
 
 read -p $'Check if number is Armstrong number. \n Give me a number:' number;
 NUMBER=${number:-Bye!}
+NUMEBR_LENGHT=
+
+for {1..${NUMBER_LENGHT}}; do
+ARMSTRONG_NUMBER=$(( ${NUMBER } ))
 echo $NUMBER
